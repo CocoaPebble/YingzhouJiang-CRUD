@@ -120,6 +120,7 @@ function editButtonEvent(e) {
     editInput.select();
     editInput.value = name;
     editButton.addEventListener('click', event => {
+        event.preventDefault();
         data[id - 1] = editInput.value;
         createLimitTable();
 
@@ -150,6 +151,7 @@ function pushData() {
     let newButton = document.getElementById('submitButton');
 
     newButton.addEventListener('click', e => {
+        e.preventDefault();
         let name = newMovie.value;
         data.push(name);
         createLimitTable();
