@@ -1,6 +1,7 @@
 > SSI INC. UI Developer Training Program
 # Assignment: A CRUD app
 
+## Run [demo](https://cocoapebble.github.io/YingzhouJiang-CRUD/)
 
 ### Requirements
 ---
